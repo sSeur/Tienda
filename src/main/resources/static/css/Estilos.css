@@ -1,0 +1,50 @@
+
+/* 
+    Created on : 19 sept 2023, 19:25:58
+    Author     : Seur
+*/
+#encabezado{
+    color:purple;
+    font-weight: bold; 
+}
+
+#tituloprincipal{
+    color: aquamarine;
+}
+.parrafoscentrados{
+    text-align: center;
+    font-weight: bold;
+    color:#a834de;
+}
+
+.parrafosjustificados{
+    text-align: justify;
+    font-weight: bold;
+    color:blue;
+    
+}
+a:link{
+    background-color: green;
+    color: white;
+}
+a:visited{
+    background-color: violet;
+    color: whitel
+}
+a:hover{
+    background-color: darkblue;
+    color: white;
+    
+}
+a:active{
+    background-color: red;
+    color: white;
+}
+
+p:nth-child(odd){
+    background-color: darksalmon;
+}
+
+p:nth-child(even){
+    background-color: cadetblue;
+}

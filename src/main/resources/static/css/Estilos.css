@@ -1,8 +1,8 @@
-
-/* 
+/*
+ 
     Created on : 19 sept 2023, 19:25:58
     Author     : Seur
-*/
+
 #encabezado{
     color:purple;
     font-weight: bold; 
@@ -47,4 +47,36 @@ p:nth-child(odd){
 
 p:nth-child(even){
     background-color: cadetblue;
+}
+*/
+
+#barralateral{
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 0;
+    width:20%;
+    background-color: #404859;
+    padding: 10px;
+}
+#contenido{
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 20%;
+    width: 80%;
+    background-color: #21252b;
+    padding: 10px;
+    color: #cbc5c3;
+    
+}
+#piepagina{
+    position: absolute;
+    height: 7%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #21252b;
+    padding: 10px;
+    text-align: center;
 }

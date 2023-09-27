@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Clase: #3 Formularios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="text-align: center; width: 50%; margin: 0 auto;">
+            <h1>Formularios</h1>
+            <p>Bienvenidos al curo de Web y Patrones</p>
+        </div>
+        <a href="iframes.html">Atras</a>
+        <br>
+        <a href="index.html">Adelante</a>
+
+
+
+        <div>
+            <section id="contenido">
+                <h2>Ejemplo de Formularios</h2>
+                <article>
+                    <form action="#" method="GET">
+                        <label>button - </label><input type="button" name="nombre" value="Confirmar"/>
+                        <br>
+                        <label>checkbox - </label><input type="checkbox" name="terminos" checked/>
+                        <br>
+                        <label>color - </label><input type="color" name="fondo" value="#AB1717"/>
+                        <br>
+                        <label>Text - </label><input type="text" name="name" placeholder="Digite el nombre" size="20"/>
+                        <br>
+                        <label>Textarea - </label><textarea name ="direccion" rows="5" cols="50">Hola mundo!</textarea>
+                        <br>
+                        <label>Textarea - </label><textarea name ="direccion" rows="5" cols="50" readonly>Hola mundo!</textarea>
+                        <br>
+                        <label>Textarea - </label><textarea name ="direccion" rows="5" cols="50" disabled>Hola mundo!</textarea>
+                        <br>
+                        <label>date - </label><input type="date" name="date" min="2021-01-01" max="2023-12-31"/>
+                        <br>
+                        <label>datetime-local - </label><input type="datetime-local" name="datemimelocal"/>
+                        <br>
+                        <label>time - </label><input type="time" name="time"/>
+                        <br>
+                        <label>email - </label><input type="email" name="email" placeholder="email@example.com"/>
+                        <br>
+                        <label>file - <input type="file" name="file" accept="image/png,image/jpeg"/>
+                            <br>
+                            <label>hidden - </label><input type="hidden" id="hidden" value="baia baia tacubaia"/>
+                            <br>
+                            <label>search - </label><input type="search" name="search" placeholder=""/>
+                            <br>
+                            <label>tel - </label><input type="tel" name="tel" placeholder=""/>
+                            <br>
+                            <label>url - </label><input type="url" name="url" placeholder=""/>
+                            <br>
+                            <label>weeek - </label><input type="week" name="week"/>
+                            <br>
+                            <label>month - </label><input type="month" name="month"/>
+                            <br>
+                            <label>number - </label><input type="number" name="numero"/>
+                            <br>
+                            <label>password - </label><input type="password" name="pass"/>
+                            <br>
+                            <label>radio - </label> Java<input type="radio" name="lenguaje" value="1"/>
+                            <br>
+                            <label>radio - </label> c#<input type="radio" name="lenguaje" value="2"/>
+                            <br>
+                            <label>radio - </label> GO<input type="radio" name="lenguaje" value="3"/>
+                            <br>
+                            <label>range - </label><input type="range" value="24" min="1" max="100" 
+                                                          oninput="this.nextElementSibling.value = this.value"/>
+                            <output>24</output>
+                            <label>reset - </label><input type="reset" value="limpiar"/>
+                            <br>
+                            <label>submit - </label><input type="submit" value="enviar"/>
+                            <br>
+                    </form>
+                </article>
+
+            </section>
+            <footer>Derechos reservados &Copy; 2023</footer>
+        </div>
+    </body>
+</html>
